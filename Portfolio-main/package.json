@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://Likhitamehar.github.io/Likhita-Portolio/Portfolio-main",
+  "homepage": "https://Likhitamehar.github.io/Likhita-Portolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://LikhitaMehar.github.io/Likhita-Portolio/Porfolio-main'",
+    "build-gh": "parcel build --public-url 'https://LikhitaMehar.github.io/Likhita-Portolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
